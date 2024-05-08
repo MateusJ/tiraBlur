@@ -22,7 +22,7 @@ async function apagarNomesDoArquivo(caminhoArquivo) {
         const data = await fs.promises.readFile(caminhoArquivo, 'utf8');
         const novoConteudo = data.replace(/\bblur\b/g, '');
         await fs.promises.writeFile(caminhoArquivo, novoConteudo, 'utf8');
-        console.log('Nomes apagados com sucesso!');
+        console.log('Pagina pronta!');
     } catch (error) {
         console.error('Erro ao manipular o arquivo:', error);
     }
