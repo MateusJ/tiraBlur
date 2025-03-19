@@ -1,13 +1,12 @@
-# Como usar esse projeto
+## Como instalar no chrome
 
-Aqui esta tudo que é necessario para rodar esse projeto
+1° Faça o clone deste projeto
+2° Vá até a aba chrome://extensions/
+3° Ative o modo de desenvolvedor
+4° Clique em "Carregar sem compactação"
+5° Carregue a pasta RESPONDEAI
 
-## Node
+## Como usar
 
-A versão do node utilizado é a 18.12.1 mas o projeto deve funcionar com qualquer versão acima dessa.
-
-## Comandos
-
-Dentro da pasta raiz do projeto use o comando 'npm init' e depois o comando 'npm install' para instalar todas as bibliotecas necessárias.
-
-Depois disso é só usar o comando node respondeAi.js para iniciar o programa e colar a URL da questão que você deseja tirar o blur
+1° Vá até uma pagina do RespondeAi
+2° Clique no icone da extensão
